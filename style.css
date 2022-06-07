@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 700px;
+    height: 100vh;
+    max-height: 1180px;
+
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 35px;
+    background-color: rgb(17, 189, 26);
+    padding: 20px;
+    width: 610px;
+    border-radius: 50px;
+
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 75px;
+    margin-bottom: 65px;
+    margin-left: 65px;
+    font-family: 'Imperial Script', cursive;
+    font-weight: 900;
+    max-height: 40px;
+}
+
+.caixa-instagram {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    min-height: 280px;
+    width: 400px;
+    margin-left: 145px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.palavra-instagram {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 0;
+}
+
+.foto-do-perfil {
+    display: flex;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-left: 160px;
+    padding-top: 10px;
+}
+
+.continuar-remover {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.cr-continue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(89, 147, 201);
+    width: 310px;
+    height: 50px;
+    color: white;
+    margin-left: -10px;
+    font-size: 21px;
+}
+
+.cr-remover {
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    width: 300px;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.conta-inscrever {
+    display: flex;
+    flex-direction: column;
+    min-height: 80px;
+    max-width: 400px;
+    margin-top: 5px;
+    background-color: white;
+    margin-top: 2px;
+    margin-left: 145px;
+    margin-bottom: 15px;
+
+}
+
+.links-diversos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    max-width: 500px;
+    margin-left: 95px;
+    flex-wrap: wrap;
+    margin-bottom: 190px;
+}
+
+.baixar-o-aplicativo {
+    display: flex;
+    flex-direction: row;
+    font-size: 21px;
+    justify-content: space-around;
+    min-width: 170px;
+    max-height: 28px;
+
+}
+
+a {
+    max-height: 110px;
+    width: 250px;
+}
+
+.unidio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-around;
+    min-height: 860px;
+
+}
+
+.img-dowload {
+    max-height: 90px;
+    max-width: 210px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.conta-inscrever p {
+    display: flex;
+    height: 0px;
+    width: 100px;
+    margin-top: 8px;
+    font-size: 21px;
+    margin-left: 98px;
+    margin-bottom: 8px;
+    min-width: 230px;
+    min-height: 20px;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    max-width: 100px;
+}
+
+.ou {
+    max-width: 10px;
+    margin-top: 5px;
+    margin-right: 13px;
+    margin-left: -5px;
+}
+
+.conta-inscrever .link-blue1 {
+    display: flex;
+    color: blue;
+    min-width: 160px;
+    max-width: 20px;
+    min-height: 3px;
+    max-height: 20px;
+    font-size: 21px;
+    margin-left: 350px;
+    margin-bottom: 25px;
+}
+
+.link-blue2 {
+    display: flex;
+    color: blue;
+    min-width: 160px;
+    max-width: 20px;
+    min-height: 3px;
+    max-height: 20px;
+    font-size: 21px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.header img {
+    display: flex;
+    max-height: 45px;
+    max-width: 55px;
+    border-radius: 30%;
+}
+
+.footer img {
+    display: flex;
+    max-height: 45px;
+    max-width: 55px;
+    border-radius: 30%;
+}
+
+.DIO {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+    margin-top: 125px;
+
+}
+
+.Unimed {
+    display: flex;
+    max-width: 400px;
+    max-height: 220px;
+    margin-bottom: 150px;
+    margin-top: 125px;
+}
+
+.DIO1 {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-top: 150px;
+
+}
+
+.Unimed1 {
+    display: flex;
+    max-width: 400px;
+    max-height: 220px;
+    margin-bottom: 0px;
+    margin-top: 150px;
+}
+
+body #instagram header {
+    max-width: 700px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 84px;
+    min-height: 64px;
+    padding: 0 16px;
+    border-bottom: 5px solid rgba(1, 10, 2, 0.678);
+    border-radius: 30px 30px 0 0;
+    border: 10px solid;
+    border-bottom: 5px solid;
+}
+
+body #instagram header p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 700px;
+    max-height: 50px;
+
+    color: rgba(20, 9, 58, 0.795);
+    font-size: 58px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Imperial Script', cursive;
+    font-weight: 900;
+}
+
+body #instagram main {
+    display: flex;
+    /*flex: 1; */
+    flex-direction: column;
+    height: 1210px;
+    background: rgb(138, 231, 142);
+    max-width: 700px;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 75px 0 0 0;
+    height: 100vh;
+
+
+    border: 8px solid black;
+    border-radius: 30px 30px 30px 30px;
+
+    overflow: scroll;
+
+}
+
+::-webkit-scrollbar {
+    /* background-color: rgb(14, 214, 24); */
+    width: 15px;
+
+}
+
+/* ::-webkit-scrollbar-thumb{
+     background-color:rgb(14, 214, 24); 
+} */
+
+body #instagram main a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+body #instagram footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 64px;
+    min-height: 64px;
+    max-width: 700px;
+    padding: 0 16px;
+    border: 10px solid;
+    border-top: 5px solid;
+    border-radius: 0 0 30px 30px;
+    background: green;
+}
